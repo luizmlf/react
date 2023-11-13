@@ -31,4 +31,4 @@
 //deletar arquivos  
 -git rm [arquivo]  
 
-//
+//merge 2
