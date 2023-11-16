@@ -1,0 +1,13 @@
+.listas{
+    list-style: none;
+}
+
+.melhor{
+    background-color: black;
+    color: gold;
+}
+
+.padrao{
+    background-color: black;
+    color: green;
+}
