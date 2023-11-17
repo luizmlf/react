@@ -1,19 +1,44 @@
 {
-    "products":[
-        {
-            "id": 1,
-            "name": "Camisa",
-            "price": 59.9
-        },
-        {
-            "id": 2,
-            "name": "Calça Cargo",
-            "price": 120
-        },
-        {
-            "id": 3,
-            "name": "Boné",
-            "price": 45
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Calça Cargo",
+      "price": 120
+    },
+    {
+      "id": 3,
+      "name": "Boné",
+      "price": 45
+    },
+    {
+      "name": "Teste",
+      "price": "500",
+      "id": 4
+    },
+    {
+      "name": "Bota",
+      "price": "350",
+      "id": 5
+    },
+    {
+      "name": "Vans",
+      "price": "400",
+      "id": 6
+    },
+    {
+      "name": "Brincos",
+      "price": "100",
+      "id": 7
+    },
+    {
+      "name": "Meias",
+      "price": "50",
+      "id": 8
+    }
+  ]
 }
