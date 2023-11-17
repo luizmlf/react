@@ -2,6 +2,7 @@ import './App.css';
 
 import {useState, useEffect} from 'react';
 import {useFetch} from './hooks/useFetch'
+import ExcelUploader from './components/ExcelUploader';
 
 
 const url = "http://localhost:3000/products";
@@ -100,6 +101,8 @@ function App() {
 
         </form>
       </div>
+
+      <ExcelUploader />
 
     </>
   )

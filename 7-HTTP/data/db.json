@@ -34,11 +34,28 @@
       "name": "Brincos",
       "price": "100",
       "id": 7
-    },
-    {
-      "name": "Meias",
-      "price": "50",
-      "id": 8
     }
+  ],
+  "excel": [
+    [
+      {
+        "id": 1,
+        "Nome": "Luiz",
+        "Idade": 25,
+        "Profissão": "Estagiário"
+      },
+      {
+        "id": 2,
+        "Nome": "Felipe",
+        "Idade": 40,
+        "Profissão": "Diretor"
+      },
+      {
+        "id": 3,
+        "Nome": "Lucas",
+        "Idade": 24,
+        "Profissão": "Físico"
+      }
+    ]
   ]
 }

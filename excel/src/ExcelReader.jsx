@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import * as XLSX from 'xlsx';
 
+const url = "http://localhost:3000/data"
+
 const ExcelReader = () => {
   const [excelData, setExcelData] = useState(null);
 
@@ -20,12 +22,16 @@ const ExcelReader = () => {
 
       // Convert sheet data to JSON with headers
       const jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
-
+   
       setExcelData(jsonData);
     };
 
     reader.readAsArrayBuffer(file);
+   
+    
   };
+
+  console.log(excelData)
 
   return (
     <div>
