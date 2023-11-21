@@ -102,7 +102,7 @@ function App() {
         </form>
       </div>
 
-      <ExcelUploader />
+      
 
     </>
   )

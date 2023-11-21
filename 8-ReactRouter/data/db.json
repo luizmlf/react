@@ -1,0 +1,22 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name": "Whey Protein",
+            "price": 100,
+            "brand": "Growth"
+        },
+        {
+            "id":2,
+            "name": "Creatina",
+            "price": 50,
+            "brand": "Growth"
+        },
+        {
+            "id":3,
+            "name": "Beta Alanina",
+            "price": 35,
+            "brand": "Growth"
+        }
+    ]
+}
